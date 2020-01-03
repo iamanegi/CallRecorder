@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Call Recorder</string>
+    <string name="call_recorder">Call\nRecorder</string>
+    <string name="recording_call">Recording\nCall</string>
+</resources>

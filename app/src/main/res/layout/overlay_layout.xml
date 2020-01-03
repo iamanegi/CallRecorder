@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/overlay_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/overlay_record_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:src="@drawable/ic_record" />
+
+    <TextView
+        android:id="@+id/overlay_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/call_recorder"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/overlay_close_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:padding="22dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageButton
+        android:id="@+id/overlay_recording_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:background="@color/overlay_background"
+        android:padding="22dp"
+        android:src="@drawable/ic_recording_voice_over"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/overlay_text_view_recording"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/recording_call"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</LinearLayout>
